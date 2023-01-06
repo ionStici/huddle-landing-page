@@ -2,6 +2,34 @@
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
+## Table of contents
+
+-   [Screenshot](#screenshot)
+-   [Links](#links)
+-   [Built with](#built-with)
+-   [Author](#author)
+
+## Screenshot
+
+![](./images/screenshot.png)
+
+## Links
+
+-   [Solution URL](https://github.com/ionStici/huddle-landing-page-solution)
+-   [Live Site URL](https://ionstici.github.io/huddle-landing-page-solution)
+
+## Built with
+
+-   Semantic HTML5 markup
+-   CSS Grid and Flexbox
+-   Mobile-first workflow
+
+## Author
+
+-   [GitHub](https://github.com/ionStici)
+-   [Frontend Mentor](https://www.frontendmentor.io/profile/ionStici)
+-   [Twitter](https://twitter.com/ionStici_)
+
 <!-- ### Primary
 
 - Violet: hsl(257, 40%, 49%)
