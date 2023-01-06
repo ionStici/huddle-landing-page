@@ -1,4 +1,4 @@
-# Huddle landing page with single introductory section solution
+# Huddle landing page solution
 
 This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 

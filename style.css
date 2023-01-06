@@ -161,4 +161,98 @@ li:hover .icon {
     fill: #ff52c1;
 }
 
+/* MEDIA QUERIES */
+
+/* 1000px */
+@media only screen and (min-width: 62.5em) {
+    /* GENERAL */
+    .h1 {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 24px;
+    }
+
+    .p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    /*  */
+    body::before {
+        background-image: url(./images/bg-desktop.svg);
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: minmax(0, 696px) minmax(0, 520px);
+        column-gap: 59px;
+
+        justify-content: center;
+
+        padding: 0 85px;
+    }
+
+    /* HEADER */
+    .header {
+        grid-column: 1 / 2;
+        max-width: revert;
+        padding: 0;
+        margin: 64px 0 0 0;
+    }
+
+    .logo-wrapper {
+        width: revert;
+        margin-bottom: 104px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    /* MAIN */
+    .main {
+        grid-column: 2 / 3;
+        margin-top: 232px;
+        margin-bottom: 183px;
+        padding: 0;
+        text-align: left;
+    }
+
+    .btn {
+        width: 200px;
+        height: 56px;
+        font-size: 18px;
+        line-height: 27px;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.2586);
+    }
+
+    /* FOOTER */
+    .footer {
+        grid-column: 2 / 3;
+        display: flex;
+        margin: 0;
+        max-width: revert;
+        margin-bottom: 40px;
+    }
+
+    ul {
+        width: fit-content;
+        margin: 0 0 0 auto;
+    }
+
+    li {
+        width: 40px;
+        height: 40px;
+    }
+
+    li:not(:last-child) {
+        margin-right: 16px;
+    }
+
+    .icon {
+        width: 21px;
+        height: 21px;
+    }
+}
+
 /* END */
